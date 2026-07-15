@@ -63,7 +63,7 @@
           eyebrow: "لماذا الانطلاقة",
           title: "تجربة تعليمية متكاملة",
           subtitle: "نجمع بين القيم الأصيلة والأساليب التربوية الحديثة لنمنح كل طالب فرصة حقيقية للنمو والتميّز.",
-          item1title: "تعليمٌ نوعيٌّ متكامل", item1text: "مناهج حديثة ومتوازنة تبني أساساً معرفياً متيناً وتفتح آفاقاً واسعة أمام طلابنا.",
+          item1title: "تعليمٌ بالعربية والفرنسية", item1text: "مناهج عربية وفرنسية متوازنة تبني أساساً معرفياً متيناً وتفتح آفاقاً واسعة أمام طلابنا.",
           item2title: "كادر تربوي متمكّن", item2text: "معلمون وإداريون مؤهلون يواكبون أحدث طرق التعليم والتوجيه.",
           item3title: "بيئة آمنة وداعمة", item3text: "مساحة يشعر فيها كل طالب بالانتماء والاهتمام والرعاية.",
           item4title: "أنشطة ومهارات حياتية", item4text: "برامج لامنهجية ورياضية وفنية تنمّي شخصية الطالب المتكاملة."
@@ -137,7 +137,7 @@
           eyebrow: "مرافقنا", title: "بيئة تعليمية مجهّزة بالكامل",
           subtitle: "مساحات مصمّمة لدعم التعلّم النشط والأنشطة اللامنهجية على حدّ سواء.",
           f1title: "صفوف حديثة", f1text: "صفوف مضاءة جيداً ومجهزة بوسائل تعليمية تفاعلية.",
-          f2title: "مكتبة المدرسة", f2text: "مساحة غنية بالكتب والمراجع لتنمية حب القراءة والاطّلاع.",
+          f2title: "مكتبة المدرسة", f2text: "مساحة غنية بالكتب العربية والفرنسية لتنمية حب القراءة والاطّلاع.",
           f3title: "ملعب وأنشطة رياضية", f3text: "مساحات خارجية آمنة للعب والأنشطة الرياضية الجماعية.",
           f4title: "قاعة الأنشطة", f4text: "قاعة متعددة الاستخدامات للفعاليات والمناسبات المدرسية."
         }
@@ -231,7 +231,7 @@
           eyebrow: "Why Essor",
           title: "A well-rounded learning experience",
           subtitle: "We combine authentic values with modern teaching methods to give every student a real chance to grow and excel.",
-          item1title: "Quality education", item1text: "A modern, balanced curriculum that builds strong foundations and opens wide horizons for our students.",
+          item1title: "Arabic & French instruction", item1text: "A balanced Arabic and French curriculum that builds strong foundations and opens wide horizons for our students.",
           item2title: "Capable educators", item2text: "Qualified teachers and staff who keep pace with the latest teaching methods.",
           item3title: "Safe, supportive environment", item3text: "A space where every student feels they belong and are cared for.",
           item4title: "Activities & life skills", item4text: "Extracurricular, sports, and arts programs that build well-rounded character."
@@ -305,7 +305,7 @@
           eyebrow: "Our facilities", title: "A fully-equipped learning environment",
           subtitle: "Spaces designed to support both active learning and extracurricular activities.",
           f1title: "Modern classrooms", f1text: "Well-lit classrooms equipped with interactive teaching tools.",
-          f2title: "School library", f2text: "A space rich with books and references to nurture a love of reading and discovery.",
+          f2title: "School library", f2text: "A space rich with Arabic and French books to nurture a love of reading and discovery.",
           f3title: "Playground & sports", f3text: "Safe outdoor spaces for play and group sports activities.",
           f4title: "Activity hall", f4text: "A multi-purpose hall for school events and celebrations."
         }
