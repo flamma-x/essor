@@ -668,13 +668,6 @@ a:hover .icon-arrow {
   object-fit: cover;
 }
 
-.hero-media .frame::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(13, 53, 71, 0.55), transparent 55%);
-}
-
 .hero-stats {
   position: relative;
   z-index: 1;
