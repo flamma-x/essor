@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.vercel
+
+# Stray loose video files in root (not part of the site)
+*.MP4

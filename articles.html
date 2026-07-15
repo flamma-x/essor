@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('essor-lang');
+    if (l !== 'en' && l !== 'ar') l = 'ar';
+    document.documentElement.setAttribute('lang', l);
+    document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n-title="meta.siteName">المقالات | مدرسة الانطلاقة</title>
+<meta name="description" content="أخبار ومقالات مدرسة الانطلاقة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/images/brand/favicon.ico" sizes="any">
+<link rel="icon" href="assets/images/brand/favicon-src.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/brand/logo-sm.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="articles">
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/images/brand/logo.png" alt="Essor School" width="44" height="44">
+      <span class="brand-text">
+        <span class="name-ar" data-i18n="meta.siteName">مدرسة الانطلاقة</span>
+        <span class="name-en">ESSOR SCHOOL</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" data-nav-link="home" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="about.html" data-nav-link="about" data-i18n="nav.about">عن المدرسة</a></li>
+        <li><a href="events.html" data-nav-link="events" data-i18n="nav.events">الفعاليات</a></li>
+        <li><a href="articles.html" data-nav-link="articles" data-i18n="nav.articles">المقالات</a></li>
+        <li><a href="contact.html" data-nav-link="contact" data-i18n="nav.contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" data-lang-toggle type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 0 20a15.3 15.3 0 0 1 0-20"/></svg>
+        <span data-i18n="common.langSwitch">English</span>
+      </button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <ul>
+    <li><a href="index.html" data-nav-link="home" data-i18n="nav.home">الرئيسية</a></li>
+    <li><a href="about.html" data-nav-link="about" data-i18n="nav.about">عن المدرسة</a></li>
+    <li><a href="events.html" data-nav-link="events" data-i18n="nav.events">الفعاليات</a></li>
+    <li><a href="articles.html" data-nav-link="articles" data-i18n="nav.articles">المقالات</a></li>
+    <li><a href="contact.html" data-nav-link="contact" data-i18n="nav.contact">تواصل معنا</a></li>
+  </ul>
+</div>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" data-i18n="articles.hero.eyebrow">المقالات</span>
+      <h1 data-i18n="articles.hero.title">أخبار ومقالات المدرسة</h1>
+      <p data-i18n="articles.hero.lead">آخر الأخبار، الإعلانات، والمقالات التربوية من مدرسة الانطلاقة.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <div class="filter-row" data-filter-row>
+        <button class="filter-btn active" data-filter="all" data-i18n="articles.filters.all">الكل</button>
+        <button class="filter-btn" data-filter="announcements" data-i18n="articles.filters.announcements">إعلانات</button>
+        <button class="filter-btn" data-filter="news" data-i18n="articles.filters.news">أخبار</button>
+        <button class="filter-btn" data-filter="studentLife" data-i18n="articles.filters.studentLife">حياة الطلاب</button>
+      </div>
+
+      <div class="grid grid-3" data-reveal-group>
+
+        <article class="card media-card" data-category="announcements">
+          <figure>
+            <div class="media-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+          </figure>
+          <div class="body">
+            <span class="tag" data-i18n="articles.a1tag">إعلان</span>
+            <h3 data-i18n="articles.a1title">فتح باب التسجيل للعام الدراسي الجديد</h3>
+            <p data-i18n="articles.a1excerpt">بدأت مدرسة الانطلاقة استقبال طلبات التسجيل للعام الدراسي المقبل لجميع المراحل.</p>
+            <div class="meta">
+              <span data-i18n="articles.author">إدارة المدرسة</span>
+              <span class="dot"></span>
+              <span>4 <span data-i18n="articles.minRead">دقائق قراءة</span></span>
+            </div>
+            <a href="#" class="card-link">
+              <span data-i18n="common.readMore">اقرأ المزيد</span>
+              <span class="icon-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card media-card" data-category="studentLife">
+          <figure>
+            <picture>
+              <source srcset="assets/images/events/event-independence-day-1-thumb.webp" type="image/webp">
+              <img src="assets/images/events/event-independence-day-1-thumb.jpg" alt="طلاب مدرسة الانطلاقة يحتفلون بعيد الاستقلال" loading="lazy" width="640" height="480">
+            </picture>
+          </figure>
+          <div class="body">
+            <span class="tag" data-i18n="articles.a2tag">حياة الطلاب</span>
+            <h3 data-i18n="articles.a2title">طلابنا يحتفلون بعيد الاستقلال</h3>
+            <p data-i18n="articles.a2excerpt">فعالية مدرسية مميزة أحيت روح الانتماء الوطني لدى طلاب جميع المراحل.</p>
+            <div class="meta">
+              <span data-i18n="articles.author">إدارة المدرسة</span>
+              <span class="dot"></span>
+              <span>3 <span data-i18n="articles.minRead">دقائق قراءة</span></span>
+            </div>
+            <a href="events.html" class="card-link">
+              <span data-i18n="common.readMore">اقرأ المزيد</span>
+              <span class="icon-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card media-card" data-category="news">
+          <figure>
+            <div class="media-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+          </figure>
+          <div class="body">
+            <span class="tag" data-i18n="articles.a3tag">أخبار</span>
+            <h3 data-i18n="articles.a3title">ورشة عمل حول أساليب التعلّم الحديثة</h3>
+            <p data-i18n="articles.a3excerpt">شارك كادرنا التعليمي في ورشة تدريبية لتطوير أساليب التدريس التفاعلية.</p>
+            <div class="meta">
+              <span data-i18n="articles.author">إدارة المدرسة</span>
+              <span class="dot"></span>
+              <span>5 <span data-i18n="articles.minRead">دقائق قراءة</span></span>
+            </div>
+            <a href="#" class="card-link">
+              <span data-i18n="common.readMore">اقرأ المزيد</span>
+              <span class="icon-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="card media-card" data-category="announcements">
+          <figure>
+            <div class="media-placeholder">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18"/></svg>
+            </div>
+          </figure>
+          <div class="body">
+            <span class="tag" data-i18n="articles.a4tag">إعلان</span>
+            <h3 data-i18n="articles.a4title">جدول الأنشطة اللامنهجية لهذا الفصل</h3>
+            <p data-i18n="articles.a4excerpt">تفاصيل الأنشطة الرياضية والفنية المتاحة لطلاب المدرسة هذا الفصل.</p>
+            <div class="meta">
+              <span data-i18n="articles.author">إدارة المدرسة</span>
+              <span class="dot"></span>
+              <span>2 <span data-i18n="articles.minRead">دقائق قراءة</span></span>
+            </div>
+            <a href="#" class="card-link">
+              <span data-i18n="common.readMore">اقرأ المزيد</span>
+              <span class="icon-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/images/brand/logo.png" alt="Essor School" width="40" height="40">
+          <span class="brand-text">
+            <span class="name-ar" data-i18n="meta.siteName">مدرسة الانطلاقة</span>
+            <span class="name-en">ESSOR SCHOOL</span>
+          </span>
+        </a>
+        <p data-i18n="footer.about">مدرسة الانطلاقة تلتزم بتقديم تعليم ثنائي اللغة متميز.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-2-1.2 7.3 7.3 0 0 1-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.6 1 2.8.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.6.6.2 1.2.1 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quickLinks">روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" data-i18n="nav.about">عن المدرسة</a></li>
+          <li><a href="events.html" data-i18n="nav.events">الفعاليات</a></li>
+          <li><a href="articles.html" data-i18n="nav.articles">المقالات</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactInfo">معلومات التواصل</h4>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><address data-i18n="footer.address">[العنوان الكامل للمدرسة]، لبنان</address></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.8 2.1z"/></svg><a href="tel:+961" data-i18n="footer.phone">+961 XX XXX XXX</a></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><a href="mailto:info@essor-school.com" data-i18n="footer.email">info@essor-school.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.followUs">تابعونا</h4>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">© 2026 مدرسة الانطلاقة. جميع الحقوق محفوظة.</p>
+      <p data-i18n="footer.madeWith">صُمم بعناية من أجل جيل الغد</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" data-i18n-aria="common.toTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

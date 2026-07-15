@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<script>
+(function () {
+  try {
+    var l = localStorage.getItem('essor-lang');
+    if (l !== 'en' && l !== 'ar') l = 'ar';
+    document.documentElement.setAttribute('lang', l);
+    document.documentElement.setAttribute('dir', l === 'ar' ? 'rtl' : 'ltr');
+  } catch (e) {}
+})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n-title="meta.siteName">تواصل معنا | مدرسة الانطلاقة</title>
+<meta name="description" content="تواصلوا مع مدرسة الانطلاقة عبر النموذج أو الهاتف أو البريد الإلكتروني">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/images/brand/favicon.ico" sizes="any">
+<link rel="icon" href="assets/images/brand/favicon-src.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/brand/logo-sm.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/images/brand/logo.png" alt="Essor School" width="44" height="44">
+      <span class="brand-text">
+        <span class="name-ar" data-i18n="meta.siteName">مدرسة الانطلاقة</span>
+        <span class="name-en">ESSOR SCHOOL</span>
+      </span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html" data-nav-link="home" data-i18n="nav.home">الرئيسية</a></li>
+        <li><a href="about.html" data-nav-link="about" data-i18n="nav.about">عن المدرسة</a></li>
+        <li><a href="events.html" data-nav-link="events" data-i18n="nav.events">الفعاليات</a></li>
+        <li><a href="articles.html" data-nav-link="articles" data-i18n="nav.articles">المقالات</a></li>
+        <li><a href="contact.html" data-nav-link="contact" data-i18n="nav.contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" data-lang-toggle type="button">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 0 20a15.3 15.3 0 0 1 0-20"/></svg>
+        <span data-i18n="common.langSwitch">English</span>
+      </button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <ul>
+    <li><a href="index.html" data-nav-link="home" data-i18n="nav.home">الرئيسية</a></li>
+    <li><a href="about.html" data-nav-link="about" data-i18n="nav.about">عن المدرسة</a></li>
+    <li><a href="events.html" data-nav-link="events" data-i18n="nav.events">الفعاليات</a></li>
+    <li><a href="articles.html" data-nav-link="articles" data-i18n="nav.articles">المقالات</a></li>
+    <li><a href="contact.html" data-nav-link="contact" data-i18n="nav.contact">تواصل معنا</a></li>
+  </ul>
+</div>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow" data-i18n="contact.hero.eyebrow">تواصل معنا</span>
+      <h1 data-i18n="contact.hero.title">نسعد بتواصلكم معنا</h1>
+      <p data-i18n="contact.hero.lead">لأي استفسار عن التسجيل، البرامج التعليمية، أو زيارة المدرسة، فريقنا جاهز لمساعدتكم.</p>
+    </div>
+  </section>
+
+  <section id="contact-info">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div data-reveal>
+          <h2 style="font-size:var(--fs-lg);margin-block-end:var(--sp-5)" data-i18n="contact.infoTitle">معلومات التواصل</h2>
+
+          <div class="contact-info-card">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div>
+              <h3 data-i18n="contact.addressTitle">العنوان</h3>
+              <p data-i18n="contact.addressText">[العنوان الكامل للمدرسة]، لبنان</p>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.8 2.1z"/></svg></div>
+            <div>
+              <h3 data-i18n="contact.phoneTitle">الهاتف</h3>
+              <a href="tel:+961" data-i18n="contact.phoneText">+961 XX XXX XXX</a>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></div>
+            <div>
+              <h3 data-i18n="contact.emailTitle">البريد الإلكتروني</h3>
+              <a href="mailto:info@essor-school.com" data-i18n="contact.emailText">info@essor-school.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+            <div>
+              <h3 data-i18n="contact.hoursTitle">ساعات الدوام</h3>
+              <p data-i18n="contact.hoursText">الإثنين – الجمعة: 7:30 ص – 2:30 م</p>
+            </div>
+          </div>
+        </div>
+
+        <div data-reveal>
+          <form class="contact-form" data-contact-form>
+            <h2 style="font-size:var(--fs-lg);margin-block-end:var(--sp-5)" data-i18n="contact.formTitle">أرسل لنا رسالة</h2>
+
+            <div class="form-row two">
+              <div class="field">
+                <label for="cf-name" data-i18n="contact.formName">الاسم الكامل</label>
+                <input type="text" id="cf-name" name="name" required data-i18n-placeholder="contact.formNamePh" placeholder="اكتب اسمك الكامل">
+              </div>
+              <div class="field">
+                <label for="cf-email" data-i18n="contact.formEmail">البريد الإلكتروني</label>
+                <input type="email" id="cf-email" name="email" required data-i18n-placeholder="contact.formEmailPh" placeholder="example@email.com">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-subject" data-i18n="contact.formSubject">الموضوع</label>
+                <input type="text" id="cf-subject" name="subject" data-i18n-placeholder="contact.formSubjectPh" placeholder="بخصوص...">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-message" data-i18n="contact.formMessage">رسالتك</label>
+                <textarea id="cf-message" name="message" required data-i18n-placeholder="contact.formMessagePh" placeholder="اكتب رسالتك هنا..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" data-i18n="contact.formSubmit">إرسال الرسالة</button>
+
+            <p class="form-note" data-i18n="contact.formNote">* لتفعيل استقبال الرسائل فعلياً، يجب ربط النموذج بخدمة مثل Formspree كما هو موضح في ملف README.</p>
+
+            <p data-form-success hidden style="margin-block-start:var(--sp-4);color:var(--c-success);font-weight:700;font-size:var(--fs-sm)" data-i18n="contact.formSuccess">شكراً لتواصلكم! تم استلام رسالتكم وسنعاود التواصل معكم قريباً.</p>
+          </form>
+        </div>
+
+      </div>
+
+      <div data-reveal>
+        <h2 class="text-center" style="font-size:var(--fs-lg);margin-block-start:var(--sp-8)" data-i18n="contact.mapTitle">موقعنا على الخريطة</h2>
+        <div class="map-frame">
+          <iframe src="https://maps.google.com/maps?q=Lebanon&z=8&output=embed" title="School location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="form-note text-center" style="margin-block-start:var(--sp-3)">* Replace this generic map with your exact school location — see README.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/images/brand/logo.png" alt="Essor School" width="40" height="40">
+          <span class="brand-text">
+            <span class="name-ar" data-i18n="meta.siteName">مدرسة الانطلاقة</span>
+            <span class="name-en">ESSOR SCHOOL</span>
+          </span>
+        </a>
+        <p data-i18n="footer.about">مدرسة الانطلاقة تلتزم بتقديم تعليم ثنائي اللغة متميز.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.6 6.6 0 0 1-2-1.2 7.3 7.3 0 0 1-1.3-1.7c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.2 0-.3 0-.5s-.6-1.5-.9-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.6 1 2.8.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.6.6.2 1.2.1 1.6.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.quickLinks">روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="about.html" data-i18n="nav.about">عن المدرسة</a></li>
+          <li><a href="events.html" data-i18n="nav.events">الفعاليات</a></li>
+          <li><a href="articles.html" data-i18n="nav.articles">المقالات</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contactInfo">معلومات التواصل</h4>
+        <ul>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><address data-i18n="footer.address">[العنوان الكامل للمدرسة]، لبنان</address></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.8 2.1z"/></svg><a href="tel:+961" data-i18n="footer.phone">+961 XX XXX XXX</a></li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><a href="mailto:info@essor-school.com" data-i18n="footer.email">info@essor-school.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.followUs">تابعونا</h4>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">© 2026 مدرسة الانطلاقة. جميع الحقوق محفوظة.</p>
+      <p data-i18n="footer.madeWith">صُمم بعناية من أجل جيل الغد</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" data-i18n-aria="common.toTop" aria-label="Back to top">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
