@@ -36,7 +36,7 @@
       },
 
       footer: {
-        about: "مدرسة الانطلاقة تلتزم بتقديم تعليم ثنائي اللغة متميز، يجمع بين الأصالة والحداثة لبناء جيل واعٍ وقادر على قيادة المستقبل.",
+        about: "مدرسة الانطلاقة تلتزم بتقديم تعليمٍ متميز، يجمع بين الأصالة والحداثة لبناء جيل واعٍ وقادر على قيادة المستقبل.",
         quickLinks: "روابط سريعة",
         contactInfo: "معلومات التواصل",
         followUs: "تابعونا",
@@ -49,21 +49,21 @@
 
       home: {
         hero: {
-          badge: "تعليم ثنائي اللغة موثوق منذ سنوات",
-          title: "نحو انطلاقةٍ نحو <span>التميّز</span> والمعرفة",
+          badge: "تعليمٌ نوعيٌّ موثوق منذ سنوات",
+          title: "انطلاقةٌ نحو <span>التميّز</span> والمعرفة",
           lead: "في مدرسة الانطلاقة، نؤمن بأن التعليم رحلة تبني الإنسان قبل أن تبني المتعلّم. بيئة تربوية آمنة، مناهج حديثة، وكادر متمكّن يرافق أبناءكم خطوة بخطوة.",
           ctaPrimary: "اكتشف المدرسة",
           ctaSecondary: "تواصل معنا",
           stat1Num: "+15", stat1Label: "عاماً من الخبرة",
           stat2Num: "+500", stat2Label: "طالب وطالبة",
           stat3Num: "+40", stat3Label: "معلم ومعلمة",
-          stat4Num: "2", stat4Label: "لغتا تدريس"
+          stat4Num: "+100", stat4Label: "منحة مجانية"
         },
         highlights: {
           eyebrow: "لماذا الانطلاقة",
           title: "تجربة تعليمية متكاملة",
           subtitle: "نجمع بين القيم الأصيلة والأساليب التربوية الحديثة لنمنح كل طالب فرصة حقيقية للنمو والتميّز.",
-          item1title: "تعليم ثنائي اللغة", item1text: "مناهج عربية وإنكليزية متوازنة تفتح آفاقاً واسعة أمام طلابنا.",
+          item1title: "تعليمٌ نوعيٌّ متكامل", item1text: "مناهج حديثة ومتوازنة تبني أساساً معرفياً متيناً وتفتح آفاقاً واسعة أمام طلابنا.",
           item2title: "كادر تربوي متمكّن", item2text: "معلمون وإداريون مؤهلون يواكبون أحدث طرق التعليم والتوجيه.",
           item3title: "بيئة آمنة وداعمة", item3text: "مساحة يشعر فيها كل طالب بالانتماء والاهتمام والرعاية.",
           item4title: "أنشطة ومهارات حياتية", item4text: "برامج لامنهجية ورياضية وفنية تنمّي شخصية الطالب المتكاملة."
@@ -97,12 +97,25 @@
           p2: "في عام 1998، حوّل هذا الحلم إلى واقع بتأسيس مدرسة الانطلاقة، إيماناً منه بأن التعليم هو الطريق الحقيقي لنهضة أبناء عكار وجبل أكروم. وما تزال رؤيته حتى اليوم حجر الأساس الذي تُبنى عليه رسالة المدرسة.",
           quote: "«التعليم هو أثمن ما نتركه لأبنائنا، وأصدق طريقٍ نحو مستقبلٍ أفضل.»"
         },
+        achievements: {
+          eyebrow: "أثرنا في المجتمع",
+          title: "إنجازاتٌ نفخر بها",
+          subtitle: "منذ انطلاقتها، لم تكن مدرسة الانطلاقة مجرّد صفوفٍ ومقاعد، بل رسالةً إنسانيةً وتربويةً تركت أثراً حقيقياً في حياة المئات.",
+          a1title: "تعليمٌ مجاني لغير القادرين",
+          a1text: "فتحنا قسماً مجانياً يستقبل الطلاب من العائلات غير القادرة على تحمّل تكاليف التعليم، إيماناً منّا بأن العلم حقٌّ للجميع لا امتيازٌ للبعض.",
+          a2title: "احتضان أبناء اللاجئين السوريين",
+          a2text: "خلال سنوات الحرب، افتتحنا قسماً خاصاً لتعليم أبناء اللاجئين السوريين، لنمنحهم مقعداً آمناً وفرصةً لمواصلة تعلّمهم رغم قسوة الظروف.",
+          a3title: "خرّيجون في أرقى المهن",
+          a3text: "تخرّج من صفوف مدرستنا أطباء وأصحاب اختصاصاتٍ مرموقة، يحملون اسم مدرستهم الأولى بفخرٍ أينما حلّوا.",
+          a4title: "بيتٌ لأبناء المنطقة",
+          a4text: "بقيت المدرسة على مدى السنوات صرحاً تربوياً تثق به مئات العائلات في عكار وجبل أكروم."
+        },
         history: {
           eyebrow: "تاريخنا", title: "محطات في مسيرة الانطلاقة",
           text: "على مدى السنوات، نمت مدرستنا من فكرة صغيرة إلى صرح تربوي يثق به مئات الأهالي، دون أن تحيد يوماً عن رسالتها الأساسية: طالب واثق، متعلّم، ومنتمٍ لمجتمعه.",
           item1year: "التأسيس", item1title: "انطلاقة الحلم", item1text: "افتتاح المدرسة بصفوفها الأولى، بإيمان راسخ برسالة التعليم.",
           item2year: "التوسّع", item2title: "نمو الحرم المدرسي", item2text: "إضافة مبانٍ ومرافق جديدة لمواكبة العدد المتزايد من الطلاب.",
-          item3year: "الاعتماد الثنائي اللغة", item3title: "تعزيز المنهاج", item3text: "اعتماد نظام تعليم ثنائي اللغة متكامل بمعايير حديثة.",
+          item3year: "تطوير المناهج", item3title: "تعزيز المنهاج", item3text: "تحديث المناهج والمرافق التعليمية بما يواكب المعايير الحديثة.",
           item4year: "اليوم", item4title: "صرح تربوي رائد", item4text: "مدرسة الانطلاقة اليوم بيت تربوي وتعليمي لمئات العائلات."
         },
         mission: {
@@ -116,7 +129,7 @@
         staff: {
           eyebrow: "فريقنا", title: "كادرنا التربوي والإداري",
           subtitle: "نخبة من المعلمين والإداريين ذوي الخبرة، ملتزمون برعاية كل طالب بعناية فردية.",
-          role1: "المدير العام", role2: "الموجّهة التربوية", role3: "منسّق الأنشطة", role4: "رئيسة قسم اللغات",
+          role1: "المدير العام", role2: "الموجّهة التربوية", role3: "منسّق الأنشطة", role4: "منسّقة المرحلة الابتدائية",
           placeholderName: "سيُضاف قريباً",
           note: "* سيتم تحديث هذا القسم بصور وأسماء الكادر التربوي قريباً."
         },
@@ -124,7 +137,7 @@
           eyebrow: "مرافقنا", title: "بيئة تعليمية مجهّزة بالكامل",
           subtitle: "مساحات مصمّمة لدعم التعلّم النشط والأنشطة اللامنهجية على حدّ سواء.",
           f1title: "صفوف حديثة", f1text: "صفوف مضاءة جيداً ومجهزة بوسائل تعليمية تفاعلية.",
-          f2title: "مكتبة المدرسة", f2text: "مساحة غنية بالكتب العربية والإنكليزية لتنمية حب القراءة.",
+          f2title: "مكتبة المدرسة", f2text: "مساحة غنية بالكتب والمراجع لتنمية حب القراءة والاطّلاع.",
           f3title: "ملعب وأنشطة رياضية", f3text: "مساحات خارجية آمنة للعب والأنشطة الرياضية الجماعية.",
           f4title: "قاعة الأنشطة", f4text: "قاعة متعددة الاستخدامات للفعاليات والمناسبات المدرسية."
         }
@@ -191,7 +204,7 @@
       },
 
       footer: {
-        about: "Essor School is committed to outstanding bilingual education that blends authentic values with modern learning, raising a generation ready to lead the future.",
+        about: "Essor School is committed to outstanding education that blends authentic values with modern learning, raising a generation ready to lead the future.",
         quickLinks: "Quick Links",
         contactInfo: "Contact Info",
         followUs: "Follow Us",
@@ -204,7 +217,7 @@
 
       home: {
         hero: {
-          badge: "Trusted bilingual education for years",
+          badge: "Trusted quality education for years",
           title: "A launchpad for <span>excellence</span> and knowledge",
           lead: "At Essor School, we believe education is a journey that shapes the person before the learner. A safe environment, modern curricula, and a capable staff walk alongside your children every step of the way.",
           ctaPrimary: "Discover Essor",
@@ -212,13 +225,13 @@
           stat1Num: "15+", stat1Label: "Years of experience",
           stat2Num: "500+", stat2Label: "Students",
           stat3Num: "40+", stat3Label: "Teachers & staff",
-          stat4Num: "2", stat4Label: "Languages of instruction"
+          stat4Num: "100+", stat4Label: "Free scholarships granted"
         },
         highlights: {
           eyebrow: "Why Essor",
           title: "A well-rounded learning experience",
           subtitle: "We combine authentic values with modern teaching methods to give every student a real chance to grow and excel.",
-          item1title: "Bilingual education", item1text: "A balanced Arabic and English curriculum that opens wide horizons for our students.",
+          item1title: "Quality education", item1text: "A modern, balanced curriculum that builds strong foundations and opens wide horizons for our students.",
           item2title: "Capable educators", item2text: "Qualified teachers and staff who keep pace with the latest teaching methods.",
           item3title: "Safe, supportive environment", item3text: "A space where every student feels they belong and are cared for.",
           item4title: "Activities & life skills", item4text: "Extracurricular, sports, and arts programs that build well-rounded character."
@@ -252,12 +265,25 @@
           p2: "In 1998, he turned that dream into reality by founding Essor School, believing that education is the true path to lifting up the people of Akkar and Jabal Akroum. To this day, his vision remains the cornerstone on which the school's mission is built.",
           quote: "“Education is the most precious gift we can leave our children, and the truest path to a better future.”"
         },
+        achievements: {
+          eyebrow: "Our community impact",
+          title: "Achievements we're proud of",
+          subtitle: "Since its beginning, Essor School has been more than classrooms and desks — it's a humanitarian and educational mission that has left a real mark on hundreds of lives.",
+          a1title: "Free education for those in need",
+          a1text: "We opened a free section welcoming students from families who couldn't afford tuition, believing that education is a right for everyone — not a privilege for a few.",
+          a2title: "Welcoming Syrian refugee children",
+          a2text: "During the years of war, we opened a dedicated section to teach the children of Syrian refugees, giving them a safe seat and a chance to keep learning despite the hardship.",
+          a3title: "Graduates in the finest professions",
+          a3text: "Doctors and accomplished professionals have graduated from our classrooms, carrying the name of their first school with pride wherever they go.",
+          a4title: "A home for the region's children",
+          a4text: "Over the years, the school has remained a trusted educational pillar for hundreds of families across Akkar and Jabal Akroum."
+        },
         history: {
           eyebrow: "Our history", title: "Milestones on the Essor journey",
           text: "Over the years, our school has grown from a small idea into an institution trusted by hundreds of families — without ever straying from its core mission: confident, curious, engaged students.",
           item1year: "Founding", item1title: "The dream takes off", item1text: "The school opens its first classrooms, built on a firm belief in the mission of education.",
           item2year: "Expansion", item2title: "Growing our campus", item2text: "New buildings and facilities added to keep pace with a growing student body.",
-          item3year: "Bilingual accreditation", item3title: "Strengthening the curriculum", item3text: "Adoption of a comprehensive bilingual education system to modern standards.",
+          item3year: "Curriculum development", item3title: "Strengthening the curriculum", item3text: "Modernizing the curriculum and facilities to meet contemporary standards.",
           item4year: "Today", item4title: "A leading institution", item4text: "Essor School today is an educational home for hundreds of families."
         },
         mission: {
@@ -271,7 +297,7 @@
         staff: {
           eyebrow: "Our team", title: "Our teaching & administrative staff",
           subtitle: "A select group of experienced teachers and administrators, committed to caring for every student individually.",
-          role1: "Principal", role2: "Academic Supervisor", role3: "Activities Coordinator", role4: "Head of Languages Department",
+          role1: "Principal", role2: "Academic Supervisor", role3: "Activities Coordinator", role4: "Primary Stage Coordinator",
           placeholderName: "Coming soon",
           note: "* This section will be updated with staff photos and names soon."
         },
@@ -279,7 +305,7 @@
           eyebrow: "Our facilities", title: "A fully-equipped learning environment",
           subtitle: "Spaces designed to support both active learning and extracurricular activities.",
           f1title: "Modern classrooms", f1text: "Well-lit classrooms equipped with interactive teaching tools.",
-          f2title: "School library", f2text: "A space rich with Arabic and English books to nurture a love of reading.",
+          f2title: "School library", f2text: "A space rich with books and references to nurture a love of reading and discovery.",
           f3title: "Playground & sports", f3text: "Safe outdoor spaces for play and group sports activities.",
           f4title: "Activity hall", f4text: "A multi-purpose hall for school events and celebrations."
         }
